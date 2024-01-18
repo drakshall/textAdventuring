@@ -1,5 +1,5 @@
 Text adventure planning doc
 
 combat? -> health system, stats, end state
-loot? -> gold/money, items -> shops to spend gold?
+loot? Inventory -> gold/money, items -> shops to spend gold?
 traverseal? -> dungeon crawler, room by room
