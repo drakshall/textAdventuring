@@ -1,0 +1,11 @@
+class heirarchy draft
+
+Game - class that encompases the whole game
+    Locations - the rooms the player navigates between
+        Doors - the objects that connect rooms together
+
+    Characters - players, friends, and foes
+        NPCs - non player characters
+            Friendly - vendors, conversation candidates
+            Hostile - enemies
+        PC - player character, can interact with other parts of the game
