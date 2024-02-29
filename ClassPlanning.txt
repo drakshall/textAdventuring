@@ -9,3 +9,4 @@ Game - class that encompases the whole game
             Friendly - vendors, conversation candidates
             Hostile - enemies
         PC - player character, can interact with other parts of the game
+    test
