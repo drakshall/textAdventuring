@@ -7,6 +7,9 @@ from unittest.mock import Mock
 from textadventure import *
 
 class HarveyRoomTest(unittest.TestCases):
-  def has_room_been_created(self)
+  def Test_has_room_been_created(self)
     room = HarveyRoom(none)
+
+if __name__ == "__main__":
+ unittest.main()
   
