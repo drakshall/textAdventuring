@@ -1,4 +1,4 @@
-class heirarchy draft
+class heirarchy - draft
 
 Game - class that encompases the whole game
 
@@ -14,3 +14,26 @@ Game - class that encompases the whole game
             Friendly - vendors, conversation candidates
             Hostile - enemies
         PC - player character, can interact with other parts of the game
+
+
+Class composition - draft 2
+
+CharCreator - 
+    Attributes: Strength, Charisma, Intelligence, Dexterity
+    Methods: Create player stat sheet
+
+CreatureStats - 
+    Attributes: Strength, Charisma, Intelligence, Dexterity
+
+PlayerChar - 
+    Methods: Derive player's CreatureStats object, Derive player's Inventory object
+    Attributes: CreatureStats, Inventory
+
+Inventory - 
+    Methods: List items, Add item, Remove item, derive maximum carry capacity
+    Attributes: carry capacity
+
+Item - 
+    Attributes: weight, quantity, value, ID
+
+

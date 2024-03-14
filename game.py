@@ -73,6 +73,19 @@ class Game: # represents the whole game
             self.currentRoom.processInput(command)
 
 # entry point of the program
+# if __name__ == "__main__":
+#   app = Game()    # create a new game
+#   app.mainLoop()  # start the game loop
+
+import unittest
+import io
+import contextlib
+import sys
+from unittest.mock import Mock
+ 
+class RichRoomTest(unittest.TestCase):
+    def testRoomCreation(self):
+        room = Room(None)
+
 if __name__ == "__main__":
-    app = Game()    # create a new game
-    app.mainLoop()  # start the game loop
+    unittest.main()
