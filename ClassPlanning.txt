@@ -1,8 +1,13 @@
 class heirarchy draft
 
 Game - class that encompases the whole game
+
     Locations - the rooms the player navigates between
-        Doors - the objects that connect rooms together
+
+    Entities - inanimate objects
+        Doors - objects that link to other objects of a corresponding address to traverse between rooms
+        Containters - Objects containing lootable items in an inventory
+        Items - Objects that can be contained in inventories
 
     Characters - players, friends, and foes
         NPCs - non player characters
