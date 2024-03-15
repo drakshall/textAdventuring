@@ -23,17 +23,26 @@ CharCreator -
     Methods: Create player stat sheet
 
 CreatureStats - 
-    Attributes: Strength, Charisma, Intelligence, Dexterity
+    Attributes: Strength, Charisma, Intelligence, Dexterity, Constitution
 
 PlayerChar - 
-    Methods: Derive player's CreatureStats object, Derive player's Inventory object
-    Attributes: CreatureStats, Inventory
+    Methods: Create player stat sheet
+    Attributes/Objects: CreatureStats (player), Inventory (player)
 
 Inventory - 
     Methods: List items, Add item, Remove item, derive maximum carry capacity
     Attributes: carry capacity
 
-Item - 
-    Attributes: weight, quantity, value, ID
+"Item - 
+    Attributes: weight, quantity, value, type
+
+ItemWeapon -
+    Attributes: Damage, 
+
+ItemArmour -
+    Attributes: ArmourClass" <---- very much a draft
+
+Entity - 
+    Attributes/objects: description, inventory
 
 
